@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table</title>
+  </head>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      background-color: aqua;
+      border-radius: 9px;
+      border-color: black;
+      padding: 1px;
+    }
+    th,
+    td {
+      padding: 15px;
+    }
+    table {
+      border-spacing: 30px; /*box outside space vastadi border collapse ni comment lo peti chustey ardamaitadhi*/
+    }
+  </style>
+  <body>
+    <table style="width: 150%">
+      <tr>
+        <th>company</th>
+        <th>contact</th>
+        <th>country</th>
+        <th>client name</th>
+      </tr>
+      <tr>
+        <td>infosys</td>
+        <td>7779993949</td>
+        <td>india</td>
+        <td>sai</td>
+      </tr>
+      <tr>
+        <td>deltax/td></td>
+        <td>7093362019</td>
+        <td>africa</td>
+        <td>reshmabondugula</td>
+      </tr>
+    </table>
+
+    <h1>Set the first column to 70% of the table width</h1>
+    <table style="width: 100%">
+      <tr>
+        <th style="width: 70%">company</th>
+        <th>contact</th>
+        <th>country</th>
+        <th>client name</th>
+      </tr>
+      <tr>
+        <td>amazon</td>
+        <td>7779993949</td>
+        <td>india</td>
+        <td>sai</td>
+      </tr>
+      <tr>
+        <td>amazonddcnhjfgu</td>
+        <td>7770088334</td>
+        <td>africa</td>
+        <td>saisrjhjhmbhgvjeeja</td>
+      </tr>
+    </table>
+    <h1>Set the height of the second row to 200 pixels</h1>
+    <table style="width: 100%">
+      <tr>
+        <th>company</th>
+        <th>contact</th>
+        <th>country</th>
+        <th>client name</th>
+      </tr>
+      <tr>
+        <td style="height: 200px">infosys</td>
+        <td>7779993949</td>
+        <td>india</td>
+        <td>sai</td>
+      </tr>
+      <tr>
+        <td>amazonddcnhjfgu</td>
+        <td>7770088334</td>
+        <td>africa</td>
+        <td>saisrjhjhmbhgvjeeja</td>
+      </tr>
+    </table>
+
+    <!--colspan,rowspan-->
+    <h1>colspan&rowspan</h1>
+    <table>
+      <tr>
+        <th rowspan="2">name</th>
+        <th rowspan="2">age</th>
+        <th colspan="2">gender</th>
+      </tr>
+      <tr>
+        <th>male</th>
+        <th>female</th>
+      </tr>
+      <tr>
+        <td>sandhya rani</td>
+        <td>38</td>
+        <td></td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>reshma</td>
+        <td>21</td>
+        <td></td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>maheshwar</td>
+        <td>50</td>
+        <td>yes</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>vaishnavi</td>
+        <td>17</td>
+        <td></td>
+        <td>yes</td>
+      </tr>
+    </table>
+    <h1>rowspan</h1>
+    <table>
+      <tr>
+        <th>name</th>
+        <td>resh</td>
+        <td>vaish</td>
+        <td>vishy</td>
+      </tr>
+      <tr>
+        <th rowspan="2">phonenum</th>
+        <td>2840998474</td>
+        <td>9827462464</td>
+        <td>9863463487</td>
+      </tr>
+    </table>
+  </body>
+</html>
